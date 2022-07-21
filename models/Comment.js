@@ -46,7 +46,7 @@ const CommentSchema = new Schema({
     replies: [ReplySchema]
 },
 {
-    toJSOM: {
+    toJSON: {
         virtuals: true,
         getters: true
     },
